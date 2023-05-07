@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+    background-image: linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.8));
+
+    
+    min-height: 100vh;
+}
+h1{
+    font-family: "Monstserrat";
+    font-size: 24px;
+    color: darksalmon;
+}
+.Teclado{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    background-color: rgba(116, 128, 141, 0.938);
+    padding: 10px;
+    border-radius: 25px;
+}
+input{
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+}
+input[type="button"]{
+    border-radius: 20px;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+}
